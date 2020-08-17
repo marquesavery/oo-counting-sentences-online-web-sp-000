@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    count = self.split(/[.!?]/)
+    count = self.split(/[.!!?]/)
     binding.pry
     count.length
   end
